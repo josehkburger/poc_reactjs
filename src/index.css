@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.mainContent {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.mainContent > div:nth-child(1) {
+    width: 30%;
+    background: #e6e6e6;
+    padding: 1rem;
+}
+
+.mainContent > div:nth-child(2) {
+    padding: 1rem;
+    flex: 1;
+}
+
+table {
+    width: 100%;
+}
+
+table thead {
+    background: #e6e6e6;
+}
+
+table thead td {
+    padding: .5rem;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form .formInput,
+form .formInput input {
+    padding: .5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form .formInput input[type=submit] {
+    padding:10px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.table{
+  width: 70%;
+}
+.container-crud{
+  display: flex;
 }
