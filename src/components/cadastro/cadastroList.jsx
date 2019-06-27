@@ -7,7 +7,6 @@ import { remove } from './cadastroActions'
 
   const CadastroList = props =>{
 
-
     const renderRows = () =>{
       const lista = props.lista || []
       return lista.map((cadastro, index) => {
@@ -33,7 +32,6 @@ import { remove } from './cadastroActions'
             {renderRows()}
         </table>
       )
-
   }
 
 const mapStateToProps = state => ({lista: state.cadastro.lista})

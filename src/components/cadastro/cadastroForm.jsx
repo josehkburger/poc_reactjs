@@ -82,7 +82,7 @@ class CadastroForm extends Component {
           </fieldset>
       </div>
     )
-}
+  }
 }
 
 const mapStateToProps = state => ({ ...state })

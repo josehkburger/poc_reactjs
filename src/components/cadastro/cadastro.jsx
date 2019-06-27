@@ -5,15 +5,14 @@ import CadastroList from './cadastroList'
 
 class cadastro extends Component{
 
-
   render(){
 
-    return(
+  return(
     <div className="container-crud">
       <CadastroForm />
       <CadastroList />
     </div>
     )
-}
+  }
 }
 export default cadastro

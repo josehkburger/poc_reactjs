@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './components/cadastro/cadastro';
+import App from './components/lugar/lugar';
 import * as serviceWorker from './serviceWorker';
 
 import { createStore } from 'redux'

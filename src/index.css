@@ -52,9 +52,20 @@ form .formInput input[type=submit] {
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
+
+form .formInput button .submit-form{
+  padding:10px 15px;
+  background:#ccc;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
 .table{
   width: 70%;
 }
+
 .container-crud{
   display: flex;
 }
