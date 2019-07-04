@@ -24,7 +24,7 @@ const LugarList = props => {
   }
 
   return(
-    <table className='table'>
+    <table className='table table-dark'>
       <thead>
           <td>id</td>
           <td>nome</td>

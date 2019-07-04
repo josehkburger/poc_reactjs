@@ -1,0 +1,2 @@
+[2019-07-02 23:21:11.771] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/home/ubuntu_react/Documents/estudo/my-app/src/.vscode'
+[2019-07-02 23:21:12.900] [renderer1] [error] Java runtime could not be located. Install it and set its location using 'sonarlint.ls.javaHome' variable in VS Code settings.
